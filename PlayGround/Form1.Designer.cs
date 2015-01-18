@@ -32,6 +32,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.c1FlexGrid1 = new C1.Win.C1FlexGrid.C1FlexGrid();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.c1FlexGrid1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,11 +71,22 @@
             this.c1FlexGrid1.Size = new System.Drawing.Size(240, 150);
             this.c1FlexGrid1.TabIndex = 3;
             // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(410, 182);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(80, 17);
+            this.checkBox2.TabIndex = 4;
+            this.checkBox2.Text = "checkBox2";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1003, 394);
+            this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.c1FlexGrid1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button1);
@@ -93,6 +105,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.CheckBox checkBox1;
         private C1.Win.C1FlexGrid.C1FlexGrid c1FlexGrid1;
+        private System.Windows.Forms.CheckBox checkBox2;
     }
 }
 
