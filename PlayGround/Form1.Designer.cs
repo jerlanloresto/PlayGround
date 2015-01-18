@@ -35,8 +35,10 @@
             this.c1FlexGrid1 = new C1.Win.C1FlexGrid.C1FlexGrid();
             this.c1Combo1 = new C1.Win.C1List.C1Combo();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radButton1 = new Telerik.WinControls.UI.RadButton();
             ((System.ComponentModel.ISupportInitialize)(this.c1FlexGrid1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1Combo1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -107,11 +109,20 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
+            // radButton1
+            // 
+            this.radButton1.Location = new System.Drawing.Point(319, 257);
+            this.radButton1.Name = "radButton1";
+            this.radButton1.Size = new System.Drawing.Size(110, 24);
+            this.radButton1.TabIndex = 6;
+            this.radButton1.Text = "radButton1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1003, 394);
+            this.Controls.Add(this.radButton1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.c1Combo1);
             this.Controls.Add(this.c1FlexGrid1);
@@ -122,6 +133,7 @@
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.c1FlexGrid1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1Combo1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -135,6 +147,7 @@
         private C1.Win.C1FlexGrid.C1FlexGrid c1FlexGrid1;
         private C1.Win.C1List.C1Combo c1Combo1;
         private System.Windows.Forms.GroupBox groupBox1;
+        private Telerik.WinControls.UI.RadButton radButton1;
     }
 }
 
