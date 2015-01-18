@@ -28,11 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.c1QRCode1 = new C1.Win.C1BarCode.C1QRCode();
-            this.c1Calendar1 = new C1.Win.C1Schedule.C1Calendar();
-            ((System.ComponentModel.ISupportInitialize)(this.c1Calendar1)).BeginInit();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(769, 15);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 0;
             // 
             // button1
             // 
@@ -43,57 +49,36 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // c1QRCode1
+            // checkBox1
             // 
-            this.c1QRCode1.Location = new System.Drawing.Point(310, 216);
-            this.c1QRCode1.Name = "c1QRCode1";
-            this.c1QRCode1.Size = new System.Drawing.Size(75, 64);
-            this.c1QRCode1.TabIndex = 2;
-            this.c1QRCode1.Text = "c1QRCode1";
-            // 
-            // c1Calendar1
-            // 
-            this.c1Calendar1.BoldedDates = new System.DateTime[0];
-            // 
-            // 
-            // 
-            this.c1Calendar1.CalendarInfo.CultureInfo = new System.Globalization.CultureInfo("en-PH");
-            this.c1Calendar1.CalendarInfo.DateFormatString = "M/d/yyyy";
-            this.c1Calendar1.CalendarInfo.EndDayTime = System.TimeSpan.Parse("19:00:00");
-            this.c1Calendar1.CalendarInfo.StartDayTime = System.TimeSpan.Parse("07:00:00");
-            this.c1Calendar1.CalendarInfo.TimeScale = System.TimeSpan.Parse("00:30:00");
-            this.c1Calendar1.CalendarInfo.WeekStart = System.DayOfWeek.Sunday;
-            this.c1Calendar1.CalendarInfo.WorkDays.AddRange(new System.DayOfWeek[] {
-            System.DayOfWeek.Monday,
-            System.DayOfWeek.Tuesday,
-            System.DayOfWeek.Wednesday,
-            System.DayOfWeek.Thursday,
-            System.DayOfWeek.Friday});
-            this.c1Calendar1.Location = new System.Drawing.Point(12, 12);
-            this.c1Calendar1.Name = "c1Calendar1";
-            this.c1Calendar1.Size = new System.Drawing.Size(187, 144);
-            this.c1Calendar1.TabIndex = 3;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(2, 307);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 2;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1003, 387);
-            this.Controls.Add(this.c1Calendar1);
-            this.Controls.Add(this.c1QRCode1);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.c1Calendar1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
+        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
-        private C1.Win.C1BarCode.C1QRCode c1QRCode1;
-        private C1.Win.C1Schedule.C1Calendar c1Calendar1;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
