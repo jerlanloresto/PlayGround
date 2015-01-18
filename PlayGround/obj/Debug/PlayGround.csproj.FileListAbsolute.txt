@@ -7,3 +7,4 @@ D:\Documents\Visual Studio 2013\Projects\ClonedRepo\PlayGround\PlayGround\PlayGr
 D:\Documents\Visual Studio 2013\Projects\ClonedRepo\PlayGround\PlayGround\PlayGround\obj\Debug\PlayGround.csproj.GenerateResource.Cache
 D:\Documents\Visual Studio 2013\Projects\ClonedRepo\PlayGround\PlayGround\PlayGround\obj\Debug\PlayGround.exe
 D:\Documents\Visual Studio 2013\Projects\ClonedRepo\PlayGround\PlayGround\PlayGround\obj\Debug\PlayGround.pdb
+D:\Projects\PlayGround\PlayGround\bin\Debug\PlayGround.exe.config
