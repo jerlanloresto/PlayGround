@@ -16,3 +16,10 @@ D:\Projects\PlayGround\PlayGround\obj\Debug\PlayGround.Properties.Resources.reso
 D:\Projects\PlayGround\PlayGround\obj\Debug\PlayGround.csproj.GenerateResource.Cache
 D:\Projects\PlayGround\PlayGround\obj\Debug\PlayGround.exe
 D:\Projects\PlayGround\PlayGround\obj\Debug\PlayGround.pdb
+D:\Projects\PlayGround\PlayGround\bin\Debug\C1.Win.C1BarCode.2.dll
+D:\Projects\PlayGround\PlayGround\bin\Debug\C1.Win.C1FlexGrid.4.dll
+D:\Projects\PlayGround\PlayGround\bin\Debug\C1.Win.C1Schedule.4.dll
+D:\Projects\PlayGround\PlayGround\bin\Debug\C1.Win.C1BarCode.2.xml
+D:\Projects\PlayGround\PlayGround\bin\Debug\C1.Win.C1FlexGrid.4.xml
+D:\Projects\PlayGround\PlayGround\bin\Debug\C1.Win.C1Schedule.4.xml
+D:\Projects\PlayGround\PlayGround\obj\Debug\PlayGround.exe.licenses
