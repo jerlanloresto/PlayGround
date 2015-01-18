@@ -34,6 +34,7 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.c1FlexGrid1 = new C1.Win.C1FlexGrid.C1FlexGrid();
             this.c1Combo1 = new C1.Win.C1List.C1Combo();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.c1FlexGrid1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1Combo1)).BeginInit();
             this.SuspendLayout();
@@ -97,11 +98,21 @@
             this.c1Combo1.Text = "c1Combo1";
             this.c1Combo1.PropBag = resources.GetString("c1Combo1.PropBag");
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(464, 145);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 100);
+            this.groupBox1.TabIndex = 5;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1003, 394);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.c1Combo1);
             this.Controls.Add(this.c1FlexGrid1);
             this.Controls.Add(this.checkBox1);
@@ -123,6 +134,7 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private C1.Win.C1FlexGrid.C1FlexGrid c1FlexGrid1;
         private C1.Win.C1List.C1Combo c1Combo1;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 
