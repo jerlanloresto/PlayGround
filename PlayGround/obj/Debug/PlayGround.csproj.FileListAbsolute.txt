@@ -1,0 +1,9 @@
+D:\Documents\Visual Studio 2013\Projects\ClonedRepo\PlayGround\PlayGround\PlayGround\bin\Debug\PlayGround.exe.config
+D:\Documents\Visual Studio 2013\Projects\ClonedRepo\PlayGround\PlayGround\PlayGround\bin\Debug\PlayGround.exe
+D:\Documents\Visual Studio 2013\Projects\ClonedRepo\PlayGround\PlayGround\PlayGround\bin\Debug\PlayGround.pdb
+D:\Documents\Visual Studio 2013\Projects\ClonedRepo\PlayGround\PlayGround\PlayGround\obj\Debug\PlayGround.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\ClonedRepo\PlayGround\PlayGround\PlayGround\obj\Debug\PlayGround.Form1.resources
+D:\Documents\Visual Studio 2013\Projects\ClonedRepo\PlayGround\PlayGround\PlayGround\obj\Debug\PlayGround.Properties.Resources.resources
+D:\Documents\Visual Studio 2013\Projects\ClonedRepo\PlayGround\PlayGround\PlayGround\obj\Debug\PlayGround.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2013\Projects\ClonedRepo\PlayGround\PlayGround\PlayGround\obj\Debug\PlayGround.exe
+D:\Documents\Visual Studio 2013\Projects\ClonedRepo\PlayGround\PlayGround\PlayGround\obj\Debug\PlayGround.pdb
